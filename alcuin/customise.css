@@ -1,0 +1,270 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#FFF;
+	background-color:#AD0505;
+	background-image: url("/media/css/colleges/alcuin/watermark.gif");
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		color:#FFF;
+	}
+
+	/*--search label colour--*/
+	div#header form label{
+		color:#FFF;
+	}
+	
+	/*--search box border colour--*/
+	div#header form input{
+		color:#000000;
+		border:1px solid #989898;
+	}
+	
+	/*--search button border colour, text colour, background colour--*/
+	div#header form input.submit{
+		color:#FFF;
+		background-color:#000000;
+		border:1px solid #989898;
+	}
+	
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	color:#FFF;
+	background-color:#000000;
+}
+	
+	/*--highlight surrounding links background colour--*/
+	div#extra-links p span{
+		background-color:#6C0303;
+	}
+	
+		/*--link colours for extra-links--*/
+		/*link*/
+		div#extra-links p span a:link{
+			color:#FFF;
+		}
+		/*visited*/
+		div#extra-links p span a:visited{
+			color:#FFF;
+		}
+		/*hover*/
+		div#extra-links p span a:hover{
+			color:#FFF;
+		}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	color:#000;
+	background-color:#EEEEEE;
+}
+
+	/*--link colours for breadcrumb--*/
+	/*link*/
+	div#breadcrumb a:link{
+		color:#000;
+	}
+		/*visited*/
+		div#breadcrumb a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#breadcrumb a:hover{
+			color:#000;
+		}
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/colleges/alcuin/arrow_nav.gif"); 
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/colleges/alcuin/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#FFF;  
+	background-color:#000000; 
+	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+#nav .children {
+	color:#FFF; 
+	background-color:#920404; 
+	background-image:url("/media/global/templateimages/arrow_white.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#FFF !important;
+	background-color:#6C0303 !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#EEEEEE;
+	border-color:#FFFFFF;
+}
+
+.boxoutAlt {
+	background-color:#555555;
+	border-color:#555555;	
+}
+
+div#mdcolumn .boxoutAlt, 
+div#mdcolumn .boxoutAlt p, 
+div#mdcolumn .boxoutAlt h2, 
+div#mdcolumn .boxoutAlt h3, 
+div#mdcolumn .boxoutAlt h4, 
+div#mdcolumn .boxoutAlt h5, 
+div#mdcolumn .boxoutAlt a:link,
+div#mdcolumn .boxoutAlt a:visited,
+div#mdcolumn .boxoutAlt a:hover ,
+div#rhcolumn .boxoutAlt, 
+div#rhcolumn .boxoutAlt p, 
+div#rhcolumn .boxoutAlt h2, 
+div#rhcolumn .boxoutAlt h3, 
+div#rhcolumn .boxoutAlt h4, 
+div#rhcolumn .boxoutAlt h5, 
+div#rhcolumn .boxoutAlt a:link,
+div#rhcolumn .boxoutAlt a:visited,
+div#rhcolumn .boxoutAlt a:hover {
+	color:#FFF; 
+}
+
+div#mdcolumn .boxoutAlt ul, div#rhcolumn .boxoutAlt ul { 
+	list-style-image:url("/media/css/colleges/alcuin/bullet_white.gif");
+}
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:#AC0505;
+}
+
+div#mdcolumn h2 {
+border-bottom:3px solid #999999; 
+}
+
+div#mdcolumn li {
+	background:transparent url("/media/css/colleges/alcuin/bullet.gif") no-repeat  0px 4px; 
+}
+
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#999999;
+	background-color:#999999;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:#AC0505;
+		color:#FFF; 
+	
+	}
+
+
+		/*--table subheader--*/
+	table tbody tr th {
+		background-color:#eee;
+		color:#1D1D1D; 
+	}
+
+	
+div#mdcolumn input, div#mdcolumn textarea, div#rhcolumn input, div#rhcolumn textarea  {
+border:1px solid #AAA; 
+}
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #AAA; 
+background-color:#000; 
+color:#666; 
+}
+
+/*Tabbed content*/
+
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #6C0303; 
+}
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#FFF; 
+	background-color:#AC0505; 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#FFF; 
+	background-color:#333; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:#AC0505;
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/colleges/alcuin/bullet.gif");
+}
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #B1B1B1;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#6C0303;
+}
+a:visited{
+		color:#6C0303;
+	}
+a:hover{
+		color:#6C0303;
+	}

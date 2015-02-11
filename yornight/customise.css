@@ -1,0 +1,238 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#FFF;
+	background-color:#005a96;
+	background-image: none;
+}
+
+div#location img {
+	margin:25px; 
+}
+
+
+div#header div#location {
+	margin-top:0; 
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		display:none; 
+	}
+
+	/*--search label colour--*/
+	div#header form {
+		display:none; 
+	}
+	
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	display:none; 
+}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	display:none; 
+}
+
+
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/yornight/arrow_nav.gif"); 
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/yornight/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#FFF;  
+	background-color:#005a96; 
+	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+#nav .children {
+	color:#fff; 
+	background-color:#0070ac; 
+	background-image:url("/media/global/templateimages/arrow_white.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#FFF !important;
+	background-color:#005a96 !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#eeeeee;
+	border-color:#ddd;
+}
+
+.boxoutAlt {
+	background-color:#005a96;
+	border-color:#005a96;	
+}
+
+div#mdcolumn .boxoutAlt, 
+div#mdcolumn .boxoutAlt p, 
+div#mdcolumn .boxoutAlt h2, 
+div#mdcolumn .boxoutAlt h3, 
+div#mdcolumn .boxoutAlt h4, 
+div#mdcolumn .boxoutAlt h5, 
+div#mdcolumn .boxoutAlt a:link,
+div#mdcolumn .boxoutAlt a:visited,
+div#mdcolumn .boxoutAlt a:hover ,
+div#rhcolumn .boxoutAlt, 
+div#rhcolumn .boxoutAlt p, 
+div#rhcolumn .boxoutAlt h2, 
+div#rhcolumn .boxoutAlt h3, 
+div#rhcolumn .boxoutAlt h4, 
+div#rhcolumn .boxoutAlt h5, 
+div#rhcolumn .boxoutAlt a:link,
+div#rhcolumn .boxoutAlt a:visited,
+div#rhcolumn .boxoutAlt a:hover {
+	color:#FFF; 
+}
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:#005a96;
+}
+
+div#mdcolumn h2 {border-bottom:3px solid #ddd; 
+
+}
+
+/* override h2 colour for links  in columns*/
+div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
+div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
+div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
+	color:white;
+}
+
+div#mdcolumn li {
+	background:transparent url("/media/css/yornight/bullet.gif") no-repeat  0px 4px; 
+}
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#ddd;
+	background-color:#ddd;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:#005a96;
+		color:#fff; 
+	
+	}
+	
+	/*--table subheader--*/
+	table tbody tr th {
+		background-color:#0070ac;
+		color:#fff; 
+	}
+
+div#mdcolumn input, div#mdcolumn textarea, div#rhcolumn input, div#rhcolumn textarea  {
+border:1px solid #0070ac; 
+}
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #0070ac; 
+background-color:#0070ac; 
+color:#FFF; 
+}
+
+
+/*Tabbed content*/
+ 
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #0070ac; 
+}
+
+
+
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#FFF; 
+	background-color:#005a96; 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#FFF; 
+	background-color:#005a96; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:#005a96;
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/yornight/bullet.gif");
+}
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #ddd;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#005a96;
+}
+a:visited{
+		color:#005a96;
+	}
+a:hover{
+		color:#005a96;
+		
+	}

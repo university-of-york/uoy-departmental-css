@@ -1,0 +1,312 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css 
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#000;
+	background-color:#FFF;
+	background-image: url("/media/global/templateimages/watermark.gif");
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		color:#860000;
+	}
+
+	/*--search label colour--*/
+	div#header form label{
+		color:#000;
+	}
+	
+	/*--search box border colour--*/
+	div#header form input{
+		color:#000000;
+		border:1px solid #D6D3A4;
+	}
+	
+	/*--search button border colour, text colour, background colour--*/
+	div#header form input.submit{
+		color:#000000;
+		background-color:#EBE8CF;
+		border:1px solid #D6D3A4;
+	}
+	
+		/*--search paragraph separator pipe (|) colour--*/
+		div#header form p{
+			color:#000;
+		}
+	
+		/*--link colours under search--*/
+		/*link*/
+		div#header form p a:link{
+			color:#000;
+		}
+		/*visited*/
+		div#header form p a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#header form p a:hover{
+			color:#000;
+		}
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	color:#FFF;
+	background-color:#860000;
+}
+	
+	/*--highlight surrounding links background colour--*/
+	div#extra-links p span{
+		background-color:#AE1B1B;
+	}
+	
+		/*--link colours for extra-links--*/
+		/*link*/
+		div#extra-links p span a:link{
+			color:#FFF;
+		}
+		/*visited*/
+		div#extra-links p span a:visited{
+			color:#FFF;
+		}
+		/*hover*/
+		div#extra-links p span a:hover{
+			color:#FFF;
+		}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	color:#000;
+	background-color:#EBE8CF;
+}
+
+	/*--link colours for breadcrumb--*/
+	/*link*/
+	div#breadcrumb a:link{
+		color:#000;
+	}
+		/*visited*/
+		div#breadcrumb a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#breadcrumb a:hover{
+			color:#000;
+		}
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav ul  {
+	border-left:6px solid #DDD; 
+}
+#nav ul ul {
+	border-left:6px solid #CCC; 
+}
+#nav ul ul ul{
+	border-left:6px solid #BBB; 
+}
+#nav ul ul ul ul {
+	border-left:6px solid #AAA; 
+}
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/communications/arrow_nav.gif"); 
+}
+
+#nav li a {
+	background-color:#EEE;	
+}
+#nav li li a {
+	background-color:#DDD;	
+}
+#nav li li li a {
+	background-color:#CCC;	
+}
+
+#nav li li li li a {
+	background-color:#BBB; 	
+}
+#nav li li li li li a {
+	background-color:#AAA; 	
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/communications/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#FFF;  
+	background-color:#860000; 
+	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+#nav .children {
+	color:#000; 
+	background-color:#EBE8CF; 
+	background-image:url("/media/css/communications/arrow_nav.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#FFF !important;
+	background-color:#AE1B1B !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#F5F4DD;
+	border-color:#E6E5CF;
+}
+
+.boxoutAlt {
+	background-color:#E5E3E3;
+	border-color:#E5E3E3;	
+}
+
+
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:#730912;
+}
+
+div#mdcolumn h2 {border-bottom:3px solid #e6e5cf; 
+
+}
+
+/* override h2 colour for links  in columns*/
+div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
+div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
+div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
+	color:#FFF;
+}
+			
+/*--york uni addition, square bulleted lists*/
+div#mdcolumn li {
+	background:transparent url("/media/css/communications/bullet.gif") no-repeat  0px 4px; 
+}
+
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#e6e5cf;
+	background-color:#e6e5cf;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:#730912;
+		color:#FFFFFF; 
+	}
+	
+	/*--table subheader--*/
+	table tbody tr th {
+		background-color:#EBE8CF;
+		color:#1D1D1D; 
+	}
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #AAA; 
+background-color:#ECE9D8; 
+color:#111; 
+}
+
+
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #860000; 
+}
+
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#FFF; 
+	background-color:#730912; 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#FFF; 
+	background-color:#777; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:#730912;
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/communications/bullet.gif");
+}
+
+ /*Upcomg concerts in right hand column*/
+
+div#rhcolumn #upcoming-concerts .concert {
+	margin-bottom:15px; 
+}
+
+div#rhcolumn #upcoming-concerts .title {
+	font-weight:bold; 
+}
+
+div#rhcolumn #upcoming-concerts .date {
+	font-size:85%; 
+}
+
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #E6E5CF;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#860000;
+}
+a:visited{
+		color:#754A4A;
+	}
+a:hover{
+		color:#860000;
+	}

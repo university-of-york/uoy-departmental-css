@@ -1,0 +1,268 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#191001;
+	background-color:#EDEBDD;
+	background-image: url("/media/css/history-of-art/watermark.gif");
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		color:#7D2727;
+	}
+
+	/*--search label colour--*/
+	div#header form label{
+		color:#191001;
+	}
+	
+	/*--search box border colour--*/
+	div#header form input{
+		color:#000000;
+		border:1px solid #CCC4C4;
+	}
+	
+	/*--search button border colour, text colour, background colour--*/
+	div#header form input.submit{
+		color:#fff;
+		background-color:#7D2727;
+		border:1px solid #661616;
+	}
+	
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	color:#fff;
+	background-color:#7D2727;
+}
+	
+	/*--highlight surrounding links background colour--*/
+	div#extra-links p span{
+		background-color:#621F1F;
+	}
+	
+		/*--link colours for extra-links--*/
+		/*link*/
+		div#extra-links p span a:link{
+			color:#fff;
+		}
+		/*visited*/
+		div#extra-links p span a:visited{
+			color:#fff;
+		}
+		/*hover*/
+		div#extra-links p span a:hover{
+			color:#fff;
+		}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	color:#000;
+	background-color:#EBE8E8;
+}
+
+	/*--link colours for breadcrumb--*/
+	/*link*/
+	div#breadcrumb a:link{
+		color:#000;
+	}
+		/*visited*/
+		div#breadcrumb a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#breadcrumb a:hover{
+			color:#000;
+		}
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/history-of-art/arrow_nav.gif"); 
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/history-of-art/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#000;  
+	background-color:#C8C2AD; 
+	background-image:url("/media/css/history-of-art/arrow_nav_down.gif");
+}
+
+#nav .children {
+	color:#000; 
+	background-color:#EDEBDD; 
+	background-image:url("/media/css/history-of-art/arrow_nav.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#FFF !important;
+	background-color:#7D2727 !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#EBE8E8;
+	border-color:#DFDBDB;
+}
+
+.boxoutAlt {
+	background-color:#DFDBC5;
+	border-color:#D1CDB4;	
+}
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:#000000;
+}
+
+div#mdcolumn h2 {border-bottom:3px solid #DFDBC5; 
+
+}
+
+/* override h2 colour for links  in columns*/
+div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
+div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
+div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
+	color:#7D2727;
+}
+			
+
+div#mdcolumn li, div#mdcolumn ol ul li   {
+	background:transparent url("/media/css/history-of-art/bullet.gif") no-repeat  0px 4px; 
+}
+
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#DFDBC5;
+	background-color:#DFDBC5;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:#C8C2AD;
+		color:#000; 
+	
+	}
+	
+	/*--table subheader--*/
+	table tbody tr th {
+		background-color:#DFDBC5;
+		color:#000; 
+	}
+
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #661616; 
+background-color:#7D2727; 
+color:#fff; 
+}
+
+
+/*Tabbed content*/
+
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #7D2727; 
+}
+
+/*Course template*/
+div#mdcolumn #course-apply-now {
+	background-color: #621F1F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#7D2727), to(#621F1F));
+	background-image: -webkit-linear-gradient(top, #7D2727, #621F1F);
+	background-image: -moz-linear-gradient(top, #7D2727, #621F1F);
+	background-image: -ms-linear-gradient(top, #7D2727, #621F1F);
+	background-image: -o-linear-gradient(top, #7D2727, #621F1F);
+	background-image: linear-gradient(top, #7D2727, #621F1F);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#7D2727', EndColorStr='#621F1F'); 
+	border-color: #621F1F; 
+	color:#fff; 
+}
+
+div#mdcolumn #course-apply-now:hover {
+	background-color:#621F1F; 
+}
+
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#000; 
+	background-color:#DFDBC5; 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#000; 
+	background-color:#C8C2AD; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:#000;
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/history-of-art/bullet.gif");
+}
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #E6E5CF;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#7D2727;
+}
+a:visited{
+		color:#433B21;
+	}
+a:hover{
+		color:#7D2727;
+	}

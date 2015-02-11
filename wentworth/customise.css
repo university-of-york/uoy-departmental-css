@@ -1,0 +1,244 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#170B0D;
+	background-color:#E4E5E0;
+	background-image: url("/media/css/colleges/wentworth/watermark.gif");
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		color:#170B0D;
+	}
+
+	/*--search label colour--*/
+	div#header form label{
+		color:#170B0D;
+	}
+	
+	/*--search box border colour--*/
+	div#header form input{
+		color:#000000;
+		border:1px solid #BCBCBC;
+	}
+	
+	/*--search button border colour, text colour, background colour--*/
+	div#header form input.submit{
+		color:#000000;
+		background-color:#C5BEB8;
+		border:1px solid #9E9084;
+	}
+	
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	color:#000;
+	background-color:#C7CCD2;
+}
+	
+	/*--highlight surrounding links background colour--*/
+	div#extra-links p span{
+		background-color:#B1BAC5;
+	}
+	
+		/*--link colours for extra-links--*/
+		/*link*/
+		div#extra-links p span a:link{
+			color:#000;
+		}
+		/*visited*/
+		div#extra-links p span a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#extra-links p span a:hover{
+			color:#000;
+		}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	color:#000;
+	background-color:#E4E5E0;
+}
+
+	/*--link colours for breadcrumb--*/
+	/*link*/
+	div#breadcrumb a:link{
+		color:#000;
+	}
+		/*visited*/
+		div#breadcrumb a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#breadcrumb a:hover{
+			color:#000;
+		}
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/colleges/wentworth/arrow_nav.gif"); 
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/colleges/wentworth/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#000;  
+	background-color:#B1BAC5; 
+	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+#nav .children {
+	color:#000; 
+	background-color:#C5BEB8; 
+	background-image:url("/media/css/colleges/wentworth/arrow_nav.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#FFF !important;
+	background-color:#292929 !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#E4E5E0;
+	border-color:#E4E5E0;
+}
+
+.boxoutAlt {
+	background-color:#C5BEB8;
+	border-color:#C5BEB8;	
+}
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:#292929;
+}
+
+div#mdcolumn h2 {border-bottom:3px solid #D5D5D5; 
+
+}
+
+			
+
+div#mdcolumn li {
+	background:transparent url("/media/css/colleges/wentworth/bullet.gif") no-repeat  0px 4px; 
+}
+
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#D5D5D5;
+	background-color:#D5D5D5;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:#B1BAC5;
+		color:#000; 
+	
+	}
+	
+	/*--table subheader--*/
+	table tbody tr th {
+		background-color:#E4E5E0;
+		color:#000; 
+	}
+
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #AAA; 
+background-color:#ECE9D8; 
+color:#111; 
+}
+
+
+/*Tabbed content*/
+
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #292929; 
+}
+
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#000; 
+	background-color:#BFC0BC; 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#000; 
+	background-color:#C5BEB8; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:#292929;
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/colleges/wentworth/bullet.gif");
+}
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #E6E5CF;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#001;
+}
+a:visited{
+		color:#444;
+	}
+a:hover{
+		color:#001;
+	}

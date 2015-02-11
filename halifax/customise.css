@@ -1,0 +1,286 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#FFF;
+	background-color:#0075AC;
+	background-image: url("/media/css/colleges/halifax/watermark.gif");
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		color:#FFF;
+	}
+
+	/*--search label colour--*/
+	div#header form label{
+		color:#FFF;
+	}
+	
+	/*--search box border colour--*/
+	div#header form input{
+		color:#000000;
+		border:1px solid #BBBCBC;
+	}
+	
+	/*--search button border colour, text colour, background colour--*/
+	div#header form input.submit{
+		color:#000000;
+		background-color:#FDB813;
+		border:1px solid #FFEAB7;
+	}
+	
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	color:#FFF;
+	background-color:#0095DA;
+}
+	
+	/*--highlight surrounding links background colour--*/
+	div#extra-links p span{
+		background-color:#0478AE;
+	}
+	
+		/*--link colours for extra-links--*/
+		/*link*/
+		div#extra-links p span a:link{
+			color:#FFF;
+		}
+		/*visited*/
+		div#extra-links p span a:visited{
+			color:#FFF;
+		}
+		/*hover*/
+		div#extra-links p span a:hover{
+			color:#FFF;
+		}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	color:#000;
+	background-color:#BCE3F1;
+}
+
+	/*--link colours for breadcrumb--*/
+	/*link*/
+	div#breadcrumb a:link{
+		color:#000;
+	}
+		/*visited*/
+		div#breadcrumb a:visited{
+			color:#000;
+		}
+		/*hover*/
+		div#breadcrumb a:hover{
+			color:#000;
+		}
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/colleges/halifax/arrow_nav.gif"); 
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/colleges/halifax/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#FFF;  
+	background-color:#0075AC; 
+	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+#nav .children {
+	color:#000; 
+	background-color:#BCE3F1; 
+	background-image:url("/media/css/colleges/halifax/arrow_nav.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#000 !important;
+	background-color:#BED62F !important;
+	background-image: url("/media/css/colleges/halifax/arrow_hover.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/css/colleges/halifax/arrow_hover_down.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#BCE3F1;
+	border-color:#BCE3F1;
+}
+
+.boxoutAlt {
+	background-color:#0075AC;
+	border-color:#0075AC;	
+}
+
+
+div#mdcolumn .boxoutAlt, 
+div#mdcolumn .boxoutAlt p, 
+div#mdcolumn .boxoutAlt h2, 
+div#mdcolumn .boxoutAlt h3, 
+div#mdcolumn .boxoutAlt h4, 
+div#mdcolumn .boxoutAlt h5, 
+div#mdcolumn .boxoutAlt a:link,
+div#mdcolumn .boxoutAlt a:visited,
+div#mdcolumn .boxoutAlt a:hover ,
+div#mdcolumn .boxoutAlt li ,
+div#rhcolumn .boxoutAlt, 
+div#rhcolumn .boxoutAlt p, 
+div#rhcolumn .boxoutAlt h2, 
+div#rhcolumn .boxoutAlt h3, 
+div#rhcolumn .boxoutAlt h4, 
+div#rhcolumn .boxoutAlt h5, 
+div#rhcolumn .boxoutAlt a:link,
+div#rhcolumn .boxoutAlt a:visited,
+div#rhcolumn .boxoutAlt a:hover,
+div#rhcolumn .boxoutAlt li
+{
+	color:#FFF; 
+}
+
+div#rhcolumn .boxoutAlt ul{
+	list-style-image:  url("/media/global/templateimages/bullet_white.gif");
+}
+
+div#mdcolumn .boxoutAlt li {
+	background:transparent url("/media/global/templateimages/bullet_white.gif") no-repeat scroll 0 4px; 
+}
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:#016797;
+}
+
+div#mdcolumn h2 {border-bottom:3px solid #BCE3F1; 
+
+}
+
+/* override h2 colour for links  in columns*/
+div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
+div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
+div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
+	color:white;
+}
+			
+
+div#mdcolumn li {
+	background:transparent url("/media/css/colleges/halifax/bullet.gif") no-repeat  0px 4px; 
+}
+
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#D7D7D7;
+	background-color:#D7D7D7;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:#0075AC;
+		color:#FFFFFF; 
+	
+	}
+	
+	/*--table subheader--*/
+	table tbody tr th {
+		background-color:#BCE3F1;
+		color:#000; 
+	}
+
+div#mdcolumn input, div#mdcolumn textarea, div#rhcolumn input, div#rhcolumn textarea  {
+border:1px solid #AAA; 
+}
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #AAA; 
+background-color:#FDB813; 
+color:#111; 
+}
+
+
+/*Tabbed content*/
+
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #0075AC; 
+}
+
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#FFF; 
+	background-color:#0075AC; 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#FFF; 
+	background-color:#0075AC; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:#016797;
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/colleges/halifax/bullet.gif");
+}
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #E6E5CF;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#013E5B;
+}
+a:visited{
+		color:#0175AA;
+	}
+a:hover{
+		color:#013E5B;
+	}

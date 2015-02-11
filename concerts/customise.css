@@ -1,0 +1,354 @@
+/*============================================================
+		CUSTOMISE COLOURS  - includes code from t4.css
+============================================================*/
+
+/*============================================================
+		HEADER
+============================================================*/
+/*header font colour,background colour and background image*/
+div#header{
+	color:#211D1E;
+	background-color:#FFF;
+	background-image: url("/media/css/concerts/watermark.gif");
+}
+
+	/*--header h1 area title colour--*/
+	div#header div#location h1{
+		color:#211D1E;
+		margin-bottom:0; 
+	}
+
+	/*--search label colour--*/
+	div#header form label{
+		color:#000;
+	}
+	
+	/*--search box border colour--*/
+	div#header form input{
+		color:#211D1E;
+		border:1px solid #7F7C7D;
+	}
+	
+	/*--search button border colour, text colour, background colour--*/
+	div#header form input.submit{
+		color:#FFF;
+		background-color:rgb(171,104,104);
+		border:1px solid #444;
+	}
+	
+
+/*============================================================
+		EXTRA LINKS
+============================================================*/
+/*--extra-links text colour,background colour--*/
+div#extra-links{	
+	color:#FFF;
+	background-color:#231F20;
+}
+	
+	/*--highlight surrounding links background colour--*/
+	div#extra-links p span{
+		background-color:#484042;
+	}
+	
+		/*--link colours for extra-links--*/
+		/*link*/
+		div#extra-links p span a:link{
+			color:#FFF;
+		}
+		/*visited*/
+		div#extra-links p span a:visited{
+			color:#FFF;
+		}
+		/*hover*/
+		div#extra-links p span a:hover{
+			color:#FFF;
+		}
+		
+
+/*============================================================
+		BREADCRUMB
+============================================================*/
+/*--breadcrumb text colour, background colour--*/
+div#breadcrumb{
+	color:#FFF;
+	background-color:#645F60;
+}
+
+	/*--link colours for breadcrumb--*/
+	/*link*/
+	div#breadcrumb a:link{
+		color:#FFF;
+	}
+		/*visited*/
+		div#breadcrumb a:visited{
+			color:#FFF;
+		}
+		/*hover*/
+		div#breadcrumb a:hover{
+			color:#FFF;
+		}
+		
+/*============================================================
+		LEFT COLUMN BLOCKED NAVIGATION
+============================================================*/
+
+#nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
+	color: #000;
+	border-bottom: 1px solid white;
+	background-image:url("/media/css/concerts/arrow_nav.gif"); 
+}
+
+#nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
+	background-image: url("/media/css/concerts/arrow_nav_down.gif")
+}
+
+#nav li span.parent, #nav li span.parent a.parent {
+	color:#FFF;  
+	background-color:rgb(171,104,104); 
+	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+#nav .children {
+	color:#FFF; 
+	background-color:#645f60; 
+	background-image:url("/media/css/concerts/arrow_nav.gif");
+}
+
+/* all levels hover*/
+#nav li a:hover {
+	color:#FFF !important;
+	background-color:#484042 !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
+}
+
+#nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
+	background-image: url("/media/global/templateimages/arrow_nav_down_white.gif");
+}
+
+
+/*============================================================
+		BOXOUT REGIONS
+============================================================*/
+
+
+
+.boxout, .leftBox, .rightBox {
+	background-color:#E2E2E2;
+	border-color:#E2E2E2;
+}
+
+.boxout h2, .boxout h3 {
+	color: #488646; 
+} 
+
+.boxoutAlt {
+	background-color:#645F60;
+	border-color:#645F60;	
+}
+
+Use if .boxoutAlt is a dark colour
+div#mdcolumn .boxoutAlt, 
+div#mdcolumn .boxoutAlt p, 
+div#mdcolumn .boxoutAlt h2, 
+div#mdcolumn .boxoutAlt h3, 
+div#mdcolumn .boxoutAlt h4, 
+div#mdcolumn .boxoutAlt h5, 
+div#mdcolumn .boxoutAlt a:link,
+div#mdcolumn .boxoutAlt a:visited,
+div#mdcolumn .boxoutAlt a:hover ,
+div#mdcolumn .boxoutAlt li ,
+div#rhcolumn .boxoutAlt, 
+div#rhcolumn .boxoutAlt p, 
+div#rhcolumn .boxoutAlt h2, 
+div#rhcolumn .boxoutAlt h3, 
+div#rhcolumn .boxoutAlt h4, 
+div#rhcolumn .boxoutAlt h5, 
+div#rhcolumn .boxoutAlt a:link,
+div#rhcolumn .boxoutAlt a:visited,
+div#rhcolumn .boxoutAlt a:hover,
+div#rhcolumn .boxoutAlt li
+{
+	color:#FFF; 
+}
+
+
+/*============================================================
+		MIDDLE COLUMN TEXT FORMATTING
+============================================================*/
+
+/*--H1 to H6 text colour--*/
+div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
+	color:rgb(145, 78, 78);
+}
+
+div#mdcolumn h2 {border-bottom:3px solid #E2E2E2; 
+
+}
+
+/* override h2 colour for links  in columns*/
+div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
+div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
+div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
+	color:white;
+}
+			
+
+div#mdcolumn li {
+	background:transparent url("/media/css/concerts/bullet.gif") no-repeat  0px 4px; 
+}
+
+
+/*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
+div#mdcolumn hr{
+	color:#7F7C7D;
+	background-color:#7F7C7D;
+}
+
+
+	/*--table header border colour, background colour--*/
+	table tr th{
+		background-color:rgb(171,104,104);
+		color:#FFFFFF; 
+	
+	}
+	
+	/*--table subheader--*/
+	table tbody tr th {
+		background-color:#E2E2E2;
+		color:#1D1D1D; 
+	}
+
+
+div#mdcolumn input.submit, div#rhcolumn input.submit {
+border:1px solid #444; 
+background-color:rgb(171,104,104); 
+color:#FFF; 
+}
+
+
+/*Tabbed content*/
+
+div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
+	color: #488646; 
+}
+
+/*============================================================
+		HOMEPAGE FORMATTING
+============================================================*/
+div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
+	color:#FFF; 
+	background-color:rgb(171,104,104); 
+}
+div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
+	color:#FFF; 
+	background-color:#777; 
+}
+
+/*============================================================
+		RIGHT COLUMN TEXT FORMATTING
+============================================================*/
+/*--H1 to H4 text colour--*/
+/*H1 colour*/
+div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
+	color:rgb(145, 78, 78);
+}
+
+div#rhcolumn ul { 
+	list-style-type: square;
+	list-style-image:  url("/media/css/concerts/bullet.gif");
+}
+/*============================================================
+		FOOTER
+============================================================*/
+div#footer{
+	border-top:1px solid #B1B1B1;
+}
+
+/*============================================================
+		General link formatting
+============================================================*/
+	
+a:link{
+	color:#111;
+}
+a:visited{
+		color:#333;
+	}
+a:hover{
+		color:#111;
+	}
+
+	
+
+ 
+ /*Upcoming concerts table*/
+ 
+ table#upcoming-concerts a.date,table#upcoming-concerts a.time,table#upcoming-concerts a.title {
+	text-decoration:none; 
+ }
+ 
+ table#upcoming-concerts a.title {
+	font-weight:bold; 
+ }
+ 
+  table#upcoming-concerts a.time {
+	text-transform:lowercase; 
+  }
+  
+ div#mdcolumn table#upcoming-concerts a.date {
+	padding-right:0; 
+	text-align:right; 
+  }
+ 
+ /*Upcomg concerts in right hand column*/
+
+div#rhcolumn #upcoming-concerts .concert {
+	margin-bottom:15px; 
+}
+
+div#rhcolumn #upcoming-concerts .title {
+	font-weight:bold; 
+}
+
+div#rhcolumn #upcoming-concerts .date {
+	font-size:85%; 
+}
+ 
+ 
+ 
+ /*Concert details*/
+ 
+ div#mdcolumn h1 .subtitle {
+	display:block; 
+	font-size:80%; 
+	padding-top:5px; 
+ }
+ 
+ div#mdcolumn #timeandvenue, div#mdcolumn #performers, div#mdcolumn #pieces{
+	border-bottom:2px dotted #777; 
+	line-height:150%; 
+	margin-bottom:10px; 
+	padding-bottom:10px; 
+}
+
+div#mdcolumn #description {
+	line-height:150%; 
+}
+
+div#mdcolumn #performers p, div#mdcolumn #pieces p  {
+	margin-bottom:0; 
+}
+
+div#mdcolumn #timeandvenue {
+	font-weight:bold; 
+}
+
+div#mdcolumn #timeandvenue .ampm {
+	text-transform:lowercase; 
+}
+
+div#mdcolumn #tickets {
+	font-weight:bold; 
+	margin-top:10px; 
+}
