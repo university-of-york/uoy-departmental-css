@@ -194,7 +194,7 @@ div#mdcolumn h2 {border-bottom:3px solid #c9d576;
 div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
 div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
 div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
-	color:white;
+	color:#fff
 }
 			
 
@@ -260,7 +260,7 @@ div#mdcolumn #course-apply-now:hover {
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#444; 
+	color:#fff; 
 	background-color:#a9c80d; 
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
