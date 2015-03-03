@@ -96,17 +96,17 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #444;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/electronics/arrow_nav.gif"); 
+	background-image:url("/media/css/electronics/arrow_sub_nav.gif"); 
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
-	background-image: url("/media/css/electronics/arrow_nav_down.gif")
+	background-image: url("/media/css/electronics/arrow_sub_nav_down.gif")
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
 	color:#444;  
 	background-color:#a9c80d; 
-	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
+	background-image:url("/media/css/electronics/arrow_nav_down.gif");
 }
 
 #nav .children {
