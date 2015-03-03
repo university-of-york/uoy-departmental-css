@@ -21,35 +21,35 @@ div#header{
 	div#header form label{
 		color:#FFFFFF;
 	}
-	
+
 	/*--search box border colour--*/
 	div#header form input{
 		color:#000000;
 		border:1px solid #D488B2;
 	}
-	
+
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
 		color:#fff;
 		background-color:#B92080;
 		border:1px solid #D488B2;
 	}
-	
+
 
 /*============================================================
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{	
+div#extra-links{
 	color:#FFF;
 	background-color:#333;
 }
-	
+
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
 		background-color:#B92080;
 	}
-	
+
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -63,7 +63,7 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#FFF;
 		}
-		
+
 
 /*============================================================
 		BREADCRUMB
@@ -87,7 +87,7 @@ div#breadcrumb{
 		div#breadcrumb a:hover{
 			color:#000;
 		}
-		
+
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
@@ -95,7 +95,7 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/festival-of-ideas/arrow_nav.gif"); 
+	background-image:url("/media/css/festival-of-ideas/arrow_nav.gif");
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
@@ -103,14 +103,14 @@ div#breadcrumb{
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#FFF;  
-	background-color:#111; 
+	color:#FFF;
+	background-color:#111;
 	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
 }
 
 #nav .children {
-	color:#fff; 
-	background-color:#b91f7f; 
+	color:#fff;
+	background-color:#b91f7f;
 	background-image:url("/media/global/templateimages/arrow_white.gif");
 }
 
@@ -118,7 +118,7 @@ div#breadcrumb{
 #nav li a:hover {
 	color:#fff !important;
 	background-color:#7E0058 !important;
-	background-image: url("/media/global/templateimages/arrow_white.gif");	
+	background-image: url("/media/global/templateimages/arrow_white.gif");
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -135,37 +135,37 @@ div#breadcrumb{
 .boxout, .leftBox, .rightBox {
 	background-color:#111;
 	border-color:#111;
-	
+
 }
 
 
-div#mdcolumn .boxout, 
-div#mdcolumn .boxout p, 
-div#mdcolumn .boxout h2, 
-div#mdcolumn .boxout h3, 
-div#mdcolumn .boxout h4, 
-div#mdcolumn .boxout h5, 
+div#mdcolumn .boxout,
+div#mdcolumn .boxout p,
+div#mdcolumn .boxout h2,
+div#mdcolumn .boxout h3,
+div#mdcolumn .boxout h4,
+div#mdcolumn .boxout h5,
 div#mdcolumn .boxout a:link,
 div#mdcolumn .boxout a:visited,
 div#mdcolumn .boxout a:hover ,
 div#mdcolumn .boxout li ,
-div#rhcolumn .boxout, 
-div#rhcolumn .boxout p, 
-div#rhcolumn .boxout h2, 
-div#rhcolumn .boxout h3, 
-div#rhcolumn .boxout h4, 
-div#rhcolumn .boxout h5, 
+div#rhcolumn .boxout,
+div#rhcolumn .boxout p,
+div#rhcolumn .boxout h2,
+div#rhcolumn .boxout h3,
+div#rhcolumn .boxout h4,
+div#rhcolumn .boxout h5,
 div#rhcolumn .boxout a:link,
 div#rhcolumn .boxout a:visited,
 div#rhcolumn .boxout a:hover,
 div#rhcolumn .boxout li
 {
-	color:#FFF; 
+	color:#FFF;
 }
 
 .boxoutAlt {
 	background-color:#eee;
-	border-color:#ddd;	
+	border-color:#ddd;
 }
 
 
@@ -182,7 +182,7 @@ div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn
 	color:#b4227e;
 }
 
-div#mdcolumn h2 {border-bottom:3px solid #ddd; 
+div#mdcolumn h2 {border-bottom:3px solid #ddd;
 
 }
 
@@ -192,10 +192,10 @@ div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
 div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
 	color:white;
 }
-			
+
 
 div#mdcolumn ul li {
-	background:transparent url("/media/css/festival-of-ideas/bullet.gif") no-repeat  0px 4px; 
+	background:transparent url("/media/css/festival-of-ideas/bullet.gif") no-repeat  0px 4px;
 }
 
 
@@ -209,40 +209,40 @@ div#mdcolumn hr{
 	/*--table header border colour, background colour--*/
 	table tr th{
 		background-color:#A40144;
-		color:#FFFFFF; 
-	
+		color:#FFFFFF;
+
 	}
-	
+
 	/*--table subheader--*/
 	table tbody tr th {
 		background-color:#EBD2DB;
-		color:#1D1D1D; 
+		color:#1D1D1D;
 	}
 
 
 div#mdcolumn input.submit, div#rhcolumn input.submit {
-border:1px solid #b4227e; 
-background-color:#b4227e; 
-color:#fff; 
+border:1px solid #b4227e;
+background-color:#b4227e;
+color:#fff;
 }
 
 
 /*Tabbed content*/
 
 div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #7A0026; 
+	color: #7A0026;
 }
 
 /*============================================================
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#FFF; 
-	background-color:#b4227e; 
+	color:#FFF;
+	background-color:#b4227e;
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#FFF; 
-	background-color:#b4227e; 
+	color:#FFF;
+	background-color:#b4227e;
 }
 
 /*============================================================
@@ -254,7 +254,7 @@ div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
 	color:#B91F7F;
 }
 
-div#rhcolumn ul { 
+div#rhcolumn ul {
 	list-style-type: square;
 	list-style-image:  url("/media/css/festival-of-ideas/bullet.gif");
 }
@@ -268,7 +268,7 @@ div#footer{
 /*============================================================
 		General link formatting
 ============================================================*/
-	
+
 a:link{
 	color:#b4227e;
 }
@@ -278,14 +278,14 @@ a:visited{
 a:hover{
 		color:#b4227e;
 	}
-	
+
 /*============================================================
 		Festival of Ideas specific styles
-============================================================*/	
-	
+============================================================*/
+
 /*Custom calendar icon*/
 #upcomingevents .event .eventdate .day  {
-	background-color:#b4227e; 
+	background-color:#b4227e;
 }
 
 
@@ -300,13 +300,13 @@ div#mdcolumn h1.summary span {
 }
 
 div#mdcolumn ul#event-facts {
-	padding-left:0; 
+	padding-left:0;
 }
 
 div#mdcolumn ul#event-facts li {
-	margin-bottom:15px; 
-	min-height:40px; 
-	padding-left:45px; 
+	margin-bottom:15px;
+	min-height:40px;
+	padding-left:45px;
 
 }
 
@@ -320,6 +320,7 @@ div#mdcolumn ul li.tickets {
 
 div#mdcolumn ul li.tickets a.book {
 	background-color: #B92080;
+	background-image: none;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -327,10 +328,10 @@ div#mdcolumn ul li.tickets a.book {
 	display: inline-block;
 	margin-top: 10px;
 	padding: 5px 10px;
-	text-decoration:none; 
+	text-decoration:none;
 }
 div#mdcolumn ul li.tickets a.book:hover {
-	background-color:#7E0058; 
+	background-color:#7E0058;
 }
 
 div#mdcolumn ul li.where {
@@ -341,50 +342,50 @@ div#mdcolumn ul li.where {
 	/* font-size: 100%; */
 }
 
-li.tickets .free { 
-	color:#B92080; 
-	font-size:110%; 
-	font-weight:bold; 
+li.tickets .free {
+	color:#B92080;
+	font-size:110%;
+	font-weight:bold;
 }
 
-.location { 
-	font-weight:bold; 	
+.location {
+	font-weight:bold;
 }
 
 /*Related events*/
 
 #rhcolumn #related{
 	background-color:#eee;
-	border-color:#ddd; 
+	border-color:#ddd;
 }
 
 div#rhcolumn #related h2, div#rhcolumn #related a {
-	color:#B92080; 
+	color:#B92080;
 }
 
 div#rhcolumn #related p {
-	color:#000; 
+	color:#000;
 }
 
 div#rhcolumn .boxout p.related-event {
-	margin-bottom:10px; 
-	margin-top:0; 
+	margin-bottom:10px;
+	margin-top:0;
 }
 
 div#rhcolumn  .title a {
-	color:#B92080 !important; 
-	display:block; 
-	font-weight:bold; 
+	color:#B92080 !important;
+	display:block;
+	font-weight:bold;
 }
 
 div#rhcolumn  .date {
-	color:#333; 
-	display:block; 
+	color:#333;
+	display:block;
 	font-size: 85%;
 }
 
 
 #notify input.submit {
 	padding:5px 10px;
-	width:200px; 
+	width:200px;
 }
