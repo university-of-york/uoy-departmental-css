@@ -21,25 +21,25 @@ div#header{
 	div#header form label{
 		color:#FFF;
 	}
-	
+
 	/*--search box border colour--*/
 	div#header form input{
 		color:#000;
 		border:1px solid #FFF0E6;
 	}
-	
+
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
 		color:#000;
 		background-color:#FFFAEF;
 		border:1px solid #FFF0E6;
 	}
-	
+
 		/*--search paragraph separator pipe (|) colour--*/
 		div#header form p{
 			color:#FFF;
 		}
-	
+
 		/*--link colours under search--*/
 		/*link*/
 		div#header form p a:link{
@@ -58,16 +58,16 @@ div#header{
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{	
+div#extra-links{
 	color:#000;
 	background-color:#FF8000;
 }
-	
+
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
 		background-color:#FF6600;
 	}
-	
+
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -81,7 +81,7 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#000;
 		}
-		
+
 
 /*============================================================
 		BREADCRUMB
@@ -105,46 +105,46 @@ div#breadcrumb{
 		div#breadcrumb a:hover{
 			color:#FF8000;
 		}
-		
+
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
 
 
 #nav ul  {
-	border-left:6px solid #DDD; 
+	border-left:6px solid #DDD;
 }
 #nav ul ul {
-	border-left:6px solid #CCC; 
+	border-left:6px solid #CCC;
 }
 #nav ul ul ul{
-	border-left:6px solid #BBB; 
+	border-left:6px solid #BBB;
 }
 #nav ul ul ul ul {
-	border-left:6px solid #AAA; 
+	border-left:6px solid #AAA;
 }
 
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/chemistry/arrow_nav.gif"); 
+	background-image:url("/media/css/chemistry/arrow_nav.gif");
 }
 
 #nav li a {
-	background-color:#EEE;	
+	background-color:#EEE;
 }
 #nav li li a {
-	background-color:#DDD;	
+	background-color:#DDD;
 }
 #nav li li li a {
-	background-color:#CCC;	
+	background-color:#CCC;
 }
 
 #nav li li li li a {
-	background-color:#BBB; 	
+	background-color:#BBB;
 }
 #nav li li li li li a {
-	background-color:#AAA; 	
+	background-color:#AAA;
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
@@ -152,15 +152,15 @@ div#breadcrumb{
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#000;  
-	background-color:#FF6600; 
+	color:#000;
+	background-color:#FF6600;
 	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
 }
 
 
 #nav .children {
-	color:#000; 
-	background-color:#FFECBF; 
+	color:#000;
+	background-color:#FFECBF;
 	background-image:url("/media/css/chemistry/arrow_nav.gif");
 }
 
@@ -168,7 +168,7 @@ div#breadcrumb{
 #nav li a:hover {
 	color:#000 !important;
 	background-color:#FF8000 !important;
-	background-image: url("/media/global/templateimages/arrow_white.gif");	
+	background-image: url("/media/global/templateimages/arrow_white.gif");
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -203,19 +203,19 @@ div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn
 }
 
 div#mdcolumn h2 {
-	border-bottom:3px solid #FFECBF; 
-	
+	border-bottom:3px solid #FFECBF;
+
 }
-		
+
 /* override h2 colour for links  in columns*/
 div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
 div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
 div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
 	color:#000;
-}		
+}
 
 div#mdcolumn li {
-	background:transparent url("/media/css/chemistry/bullet.gif") no-repeat  0px 4px; 
+	background:transparent url("/media/css/chemistry/bullet.gif") no-repeat  0px 4px;
 }
 
 /*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
@@ -228,20 +228,20 @@ div#mdcolumn hr{
 	/*--table header border colour, background colour--*/
 	table tr th{
 		background-color:#FF6600;
-			color:#000; 
-		
+			color:#000;
+
 	}
 		/*--table subheader--*/
 	table tbody tr th {
 		background-color:#FFECBF;
-		color:#000; 
+		color:#000;
 	}
-	
+
 	div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #A42E14; 
+	color: #A42E14;
 	}
-	
-	
+
+
 /*Course template*/
 div#mdcolumn #course-apply-now {
 	background-color: #FF8000;
@@ -251,24 +251,24 @@ div#mdcolumn #course-apply-now {
 	background-image: -ms-linear-gradient(top, #FF8000, #F60);
 	background-image: -o-linear-gradient(top, #FF8000, #F60);
 	background-image: linear-gradient(top, #FF8000, #F60);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FF8000', EndColorStr='#FF6600'); 
-	border-color: #F60; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FF8000', EndColorStr='#FF6600');
+	border-color: #F60;
 }
 
 div#mdcolumn #course-apply-now:hover {
-	background-color:#F60; 
+	background-color:#F60;
 }
 
 /*============================================================
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#000; 
-	background-color:#FF6600; 
+	color:#000;
+	background-color:#FF6600;
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#FFF; 
-	background-color:#666; 
+	color:#FFF;
+	background-color:#666;
 
 
 }
@@ -277,10 +277,10 @@ div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
 ============================================================*/
 
 #upcomingevents .event .eventdate .day {
-	background-color: #FF6600; 
-	color:#000; 
+	background-color: #FF6600;
+	color:#000;
 }
-	
+
 /*============================================================
 		RIGHT COLUMN TEXT FORMATTING
 ============================================================*/
@@ -290,7 +290,7 @@ div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
 	color:#000;
 }
 
-div#rhcolumn ul { 
+div#rhcolumn ul {
 	list-style-type: square;
 	list-style-image:  url("/media/css/chemistry/bullet.gif");
 }
@@ -304,7 +304,7 @@ div#footer{
 /*============================================================
 		General link formatting
 ============================================================*/
-	
+
 a:link{
 	color:#981e00;
 }
@@ -315,4 +315,18 @@ a:hover{
 		color:#ff8000;
 	}
 
-	
+	/*============================================================
+			CALL TO ACTION LINKS
+	============================================================*/
+
+	.cta a, .cta a:link, .cta a:visited, a.cta , a.cta:link, a.cta:visited ,
+	#mdcolumn .cta a[href^="http://"],
+	#mdcolumn .cta a[href^="https://"],
+	#mdcolumn a.cta[href^="http://"],
+	#mdcolumn a.cta[href^="https://"],
+	#rhcolumn .cta a[href^="http://"],
+	#rhcolumn .cta a[href^="https://"],
+	#rhcolumn a.cta[href^="http://"],
+	#rhcolumn a.cta[href^="https://"]{
+		background: #FF6600;
+	}
