@@ -132,7 +132,7 @@ div#breadcrumb{
 
 .boxout {
 	background-color:#EBE6F0;
-	border-color:#DFD5E8;	
+	border-color:#DFD5E8;
 }
 
 .boxoutAlt {
@@ -280,13 +280,13 @@ div#footer{
 ============================================================*/
 
 a:link{
-	color:#c40038;
+	color:#850052;
 }
 a:visited{
-		color:#c40038;
+		color:#850052;
 	}
 a:hover{
-		color:#c40038;
+		color:#850052;
 	}
 
 /*============================================================
