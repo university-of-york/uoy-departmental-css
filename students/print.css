@@ -9,26 +9,26 @@
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:80%;
 	line-height:150%;
-} 
+}
 
 
 #mdcolumn:before
 {
-content:url("http://www.york.ac.uk/media/global/templateimages/print_logo.png");
+content:url("/media/global/templateimages/print_logo.png");
 }
 
 /*MAIN CONTENT*/
 
 
 a:link, a:visited {
-	color:#111; 
+	color:#111;
 }
 
 .boxout, .boxoutAlt {
 	background-color: #FFF;
-	border:1px solid #222; 
-	margin-bottom:10px; 
-	margin-left:0; 
+	border:1px solid #222;
+	margin-bottom:10px;
+	margin-left:0;
 	padding: 10px;
 }
 
@@ -42,42 +42,42 @@ ul {
 
 .boxout h2, .boxoutAlt h2{
 	margin-top:0;
-	padding-bottom:0; 
-	border:none; 
+	padding-bottom:0;
+	border:none;
 
 }
 
 h1, h2,h3,h4,h5,h6 {
-	clear:both; 
-	font-family: Georgia, Times, "Times New Roman", serif; 
-} 
+	clear:both;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
 
- 
+
 h1 {
-  	font-size:250%;  	
+  	font-size:250%;
 }
 
 h2 {
-	border-bottom:5px solid #ddd; 
-    font-size:170%;  
+	border-bottom:5px solid #ddd;
+    font-size:170%;
 	margin-top:30px;
 	padding-bottom:10px;
 }
 
 h3 {
-    	font-size:150%;  	
+    	font-size:150%;
 }
 
 h4 {
-    	font-size:130%;  	
+    	font-size:130%;
 }
 
 h5 {
-      	font-size:110%;  	
+      	font-size:110%;
 }
 
 h6 {
-      	font-size:100%;  	
+      	font-size:100%;
 }
 
 p.newsTeaserText {
@@ -91,7 +91,7 @@ table{
 	font-size:100%;
 	margin:15px 0px 10px 0px;
 	padding:0px;
-	border-spacing:0; 
+	border-spacing:0;
 	border-collapse:collapse;
 }
 
@@ -99,69 +99,69 @@ table tr th{
 	font-weight:bold;
 	padding:10px;
 	vertical-align:top;
-	text-align:left; 
-	background-color:#CCC;	
+	text-align:left;
+	background-color:#CCC;
 	border:1px solid #DDD;
 }
 
 table tbody tr th {
-	background-color:#DDD;	
+	background-color:#DDD;
 }
 
-table tr td{			
+table tr td{
 	padding:10px;
 	vertical-align:top;
 	border:1px solid #DDD;
 }
 
 
-table.horizontal-borders tr td, table.horizontal-borders tr th  {	
-	border:0; 
+table.horizontal-borders tr td, table.horizontal-borders tr th  {
+	border:0;
 }
-table.horizontal-borders tr td  {	
+table.horizontal-borders tr td  {
 	border-bottom:1px solid #D7D7D7;
 }
 
 
 table.no-borders tr td, table.no-borders tr th {
-	border:0; 
+	border:0;
 }
-	
-table.zebra tbody tr.even { 
-	background-color:#F4F4F4; 
+
+table.zebra tbody tr.even {
+	background-color:#F4F4F4;
 }
-		
-table.vertical-borders tr td {	
-	border-width:0 1px 0 1px; 				
+
+table.vertical-borders tr td {
+	border-width:0 1px 0 1px;
 }
 
 table.vertical-borders tr th {
-	border-top:1px solid #D7D7D7; 
-	border-bottom:0; 	
+	border-top:1px solid #D7D7D7;
+	border-bottom:0;
 }
 
 table.vertical-borders {
-	border:1px solid #D7D7D7; 
+	border:1px solid #D7D7D7;
 }
 
-		
-		
-blockquote.quote	{ 
-	float: right; 
-	width: 190px; 
+
+
+blockquote.quote	{
+	float: right;
+	width: 190px;
 	padding:0px 0 15px 35px;
-	margin: 0 0 15px 15px; 
-	color: #000; 
-} 
+	margin: 0 0 15px 15px;
+	color: #000;
+}
 
 
 blockquote.quote img {
-	border:5px solid #FFF; 
+	border:5px solid #FFF;
 }
 
 blockquote.quote p{
-    margin-bottom:5px; 
-	margin-top:0; 
+    margin-bottom:5px;
+	margin-top:0;
 }
 
 blockquote.quote p.quotation{
@@ -171,9 +171,9 @@ blockquote.quote p.quotation{
 }
 
 blockquote.quote p.attribution {
-	padding-right:25px; 
+	padding-right:25px;
 }
-		
+
 
 .left{
 	float:left;
@@ -184,17 +184,17 @@ blockquote.quote p.attribution {
 	float:right;
 	margin: 15px 0 15px 15px;
 }
-		
-		
-		
+
+
+
 ul.tabNavigation {
-	display:none; 
-}	
+	display:none;
+}
 
 #tabs > div {
-	display:block !important; 
-}	
+	display:block !important;
+}
 
 #tabs div h2{
-	display:block !important; 
-}		
+	display:block !important;
+}
