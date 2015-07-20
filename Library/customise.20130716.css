@@ -20,18 +20,18 @@ div#header{
 	/*--search label colour--*/
 	div#header form label{
 		color:#fff;
-	
+
 	}
 	/*--search box border colour--*/
 	div#header form input{
 		color:#000000;
 		border:1px solid #bcbcbc;
 	}
-	
+
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
 		color:#fff;
-		background-color:#97217A; 
+		background-color:#97217A;
 		border:1px solid #5a0445;
 	}
 
@@ -40,16 +40,16 @@ div#header{
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{	
+div#extra-links{
 	color:#000;
 	background-color:#a7b3ba;
 }
-	
+
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
 		background-color:#9ca7ae;
 	}
-	
+
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -63,7 +63,7 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#000;
 		}
-		
+
 
 /*============================================================
 		BREADCRUMB
@@ -87,7 +87,7 @@ div#breadcrumb{
 		div#breadcrumb a:hover{
 			color:#fff;
 		}
-		
+
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
@@ -95,7 +95,7 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/library/arrow_nav.gif"); 
+	background-image:url("/media/css/library/arrow_nav.gif");
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
@@ -103,14 +103,14 @@ div#breadcrumb{
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#FFF;  
-	background-color:#8f1872; 
+	color:#FFF;
+	background-color:#8f1872;
 	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
 }
 
 #nav .children {
-	color:#000; 
-	background-color:#fddff3; 
+	color:#000;
+	background-color:#fddff3;
 	background-image:url("/media/css/library/arrow_nav.gif");
 }
 
@@ -118,7 +118,7 @@ div#breadcrumb{
 #nav li a:hover {
 	color:#FFF !important;
 	background-color:#6e0855 !important;
-	background-image: url("/media/global/templateimages/arrow_white.gif");	
+	background-image: url("/media/global/templateimages/arrow_white.gif");
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -141,7 +141,7 @@ div#breadcrumb{
 	border-color:#FACFEB;
 }
 
-	
+
 
 
 
@@ -154,7 +154,7 @@ div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn
 	color:#8f1872;
 }
 
-div#mdcolumn h2 {border-bottom:3px solid #d5d5d5; 
+div#mdcolumn h2 {border-bottom:3px solid #d5d5d5;
 
 }
 
@@ -164,10 +164,10 @@ div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
 div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
 	color:white;
 }
-			
+
 
 div#mdcolumn li {
-	background:transparent url("/media/css/library/bullet.gif") no-repeat  0px 4px; 
+	background:transparent url("/media/css/library/bullet.gif") no-repeat  0px 4px;
 }
 
 /*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
@@ -177,40 +177,40 @@ div#mdcolumn hr{
 }
 
 
-	
+
 		/*--table header border colour, background colour--*/
 	table tr th{
 		background-color:#97217A;
-		color:#fff; 
-	
+		color:#fff;
+
 	}
-	
+
 	/*--table subheader--*/
 	table tbody tr th {
 		background-color:#d5d5d5;
-		color:#111; 
+		color:#111;
 	}
-	
+
 		div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #8e1872; 
+	color: #8e1872;
 }
 
 div#mdcolumn input.submit, div#rhcolumn input.submit {
-	border:1px solid #97217A; 
-	background-color:#97217A; 
-	color:#fff; 
+	border:1px solid #97217A;
+	background-color:#97217A;
+	color:#fff;
 }
 
 /*============================================================
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#FFF; 
-	background-color:#535e64; 
+	color:#FFF;
+	background-color:#535e64;
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#FFF; 
-	background-color:#97217A; 
+	color:#FFF;
+	background-color:#97217A;
 }
 
 
@@ -223,7 +223,7 @@ div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
 	color:#8f1872;
 }
 
-div#rhcolumn ul { 
+div#rhcolumn ul {
 	list-style-type: square;
 	list-style-image:  url("/media/css/library/bullet.gif");
 }
@@ -237,7 +237,7 @@ div#footer{
 /*============================================================
 		General link formatting
 ============================================================*/
-	
+
 a:link{
 	color:#8e1872;
 }
@@ -247,8 +247,23 @@ a:visited{
 a:hover{
 		color:#8e1872;
 	}
-	
-	
+
+/*============================================================
+		CALL TO ACTION LINKS
+============================================================*/
+
+.cta a, .cta a:link, .cta a:visited, a.cta , a.cta:link, a.cta:visited ,
+#mdcolumn .cta a[href^="http://"],
+#mdcolumn .cta a[href^="https://"],
+#mdcolumn a.cta[href^="http://"],
+#mdcolumn a.cta[href^="https://"],
+#rhcolumn .cta a[href^="http://"],
+#rhcolumn .cta a[href^="https://"],
+#rhcolumn a.cta[href^="http://"],
+#rhcolumn a.cta[href^="https://"]{
+	background: #97217A;
+}
+
 /*============================================================
 		Library specific
 ============================================================*/
@@ -258,22 +273,22 @@ padding: 5px;
 
 }
 #library-search-keywords-label {
-	color:#97217A; 
+	color:#97217A;
 }
 
 .library-search-options {
-	display:block; 
-	float:left; 
-	margin-top:10px; 
+	display:block;
+	float:left;
+	margin-top:10px;
 }
 
 
 .library-search-options.catalogue {
-	margin-left:145px; 
+	margin-left:145px;
 }
 
 .library-search-options.everything {
-	margin-left:25px; 
+	margin-left:25px;
 }
 
 .library-search-options label {

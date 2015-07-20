@@ -281,3 +281,19 @@ a:visited{
 a:hover{
 		color:#000;
 	}
+
+	/*============================================================
+			CALL TO ACTION LINKS
+	============================================================*/
+
+	.cta a, .cta a:link, .cta a:visited, a.cta , a.cta:link, a.cta:visited ,
+	#mdcolumn .cta a[href^="http://"],
+	#mdcolumn .cta a[href^="https://"],
+	#mdcolumn a.cta[href^="http://"],
+	#mdcolumn a.cta[href^="https://"],
+	#rhcolumn .cta a[href^="http://"],
+	#rhcolumn .cta a[href^="https://"],
+	#rhcolumn a.cta[href^="http://"],
+	#rhcolumn a.cta[href^="https://"]{
+		background: #7BCCC5;
+	}
