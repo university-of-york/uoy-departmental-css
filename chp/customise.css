@@ -21,35 +21,35 @@ div#header{
 	div#header form label{
 		color:#FFF;
 	}
-	
+
 	/*--search box border colour--*/
 	div#header form input{
 		color:#000000;
 		border:1px solid #989898;
 	}
-	
+
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
 		color:#FFF;
 		background-color:#000000;
 		border:1px solid #989898;
 	}
-	
+
 
 /*============================================================
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{	
+div#extra-links{
 	color:#FFF;
 	background-color:#000000;
 }
-	
+
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
 		background-color:#6C0303;
 	}
-	
+
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -63,7 +63,7 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#FFF;
 		}
-		
+
 
 /*============================================================
 		BREADCRUMB
@@ -87,7 +87,7 @@ div#breadcrumb{
 		div#breadcrumb a:hover{
 			color:#000;
 		}
-		
+
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
@@ -95,7 +95,7 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/chp/arrow_nav.gif"); 
+	background-image:url("/media/css/chp/arrow_nav.gif");
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
@@ -103,14 +103,14 @@ div#breadcrumb{
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#FFF;  
-	background-color:#000000; 
+	color:#FFF;
+	background-color:#000000;
 	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
 }
 
 #nav .children {
-	color:#FFF; 
-	background-color:#920404; 
+	color:#FFF;
+	background-color:#920404;
 	background-image:url("/media/global/templateimages/arrow_white.gif");
 }
 
@@ -118,7 +118,7 @@ div#breadcrumb{
 #nav li a:hover {
 	color:#FFF !important;
 	background-color:#6C0303 !important;
-	background-image: url("/media/global/templateimages/arrow_white.gif");	
+	background-image: url("/media/global/templateimages/arrow_white.gif");
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -133,37 +133,37 @@ div#breadcrumb{
 
 
 .boxout, .leftBox, .rightBox {
-	background-color:#f0ead8;
+	background-color:#EDECE4;
 	border-color:#f0ead8;
 }
 
 .boxoutAlt {
 	background-color:#eee;
-	border-color:#eee;	
+	border-color:#eee;
 }
 
-/* div#mdcolumn .boxoutAlt, 
-div#mdcolumn .boxoutAlt p, 
-div#mdcolumn .boxoutAlt h2, 
-div#mdcolumn .boxoutAlt h3, 
-div#mdcolumn .boxoutAlt h4, 
-div#mdcolumn .boxoutAlt h5, 
+/* div#mdcolumn .boxoutAlt,
+div#mdcolumn .boxoutAlt p,
+div#mdcolumn .boxoutAlt h2,
+div#mdcolumn .boxoutAlt h3,
+div#mdcolumn .boxoutAlt h4,
+div#mdcolumn .boxoutAlt h5,
 div#mdcolumn .boxoutAlt a:link,
 div#mdcolumn .boxoutAlt a:visited,
 div#mdcolumn .boxoutAlt a:hover ,
-div#rhcolumn .boxoutAlt, 
-div#rhcolumn .boxoutAlt p, 
-div#rhcolumn .boxoutAlt h2, 
-div#rhcolumn .boxoutAlt h3, 
-div#rhcolumn .boxoutAlt h4, 
-div#rhcolumn .boxoutAlt h5, 
+div#rhcolumn .boxoutAlt,
+div#rhcolumn .boxoutAlt p,
+div#rhcolumn .boxoutAlt h2,
+div#rhcolumn .boxoutAlt h3,
+div#rhcolumn .boxoutAlt h4,
+div#rhcolumn .boxoutAlt h5,
 div#rhcolumn .boxoutAlt a:link,
 div#rhcolumn .boxoutAlt a:visited,
 div#rhcolumn .boxoutAlt a:hover {
-	color:#FFF; 
+	color:#FFF;
 }
 
-div#mdcolumn .boxoutAlt ul, div#rhcolumn .boxoutAlt ul { 
+div#mdcolumn .boxoutAlt ul, div#rhcolumn .boxoutAlt ul {
 	list-style-image:url("/media/css/chp/bullet_white.gif");
 }
  */
@@ -178,11 +178,11 @@ div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn
 }
 
 div#mdcolumn h2 {
-border-bottom:3px solid #999999; 
+border-bottom:3px solid #999999;
 }
 
 div#mdcolumn li {
-	background:transparent url("/media/css/chp/bullet.gif") no-repeat  0px 4px; 
+	background:transparent url("/media/css/chp/bullet.gif") no-repeat  0px 4px;
 }
 
 
@@ -196,43 +196,43 @@ div#mdcolumn hr{
 	/*--table header border colour, background colour--*/
 	table tr th{
 		background-color:#AC0505;
-		color:#FFF; 
-	
+		color:#FFF;
+
 	}
 
 
 		/*--table subheader--*/
 	table tbody tr th {
 		background-color:#eee;
-		color:#1D1D1D; 
+		color:#1D1D1D;
 	}
 
-	
+
 div#mdcolumn input, div#mdcolumn textarea, div#rhcolumn input, div#rhcolumn textarea  {
-border:1px solid #AAA; 
+border:1px solid #AAA;
 }
 
 div#mdcolumn input.submit, div#rhcolumn input.submit {
-border:1px solid #AAA; 
-background-color:#000; 
-color:#666; 
+border:1px solid #AAA;
+background-color:#000;
+color:#666;
 }
 
 /*Tabbed content*/
 
 div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #6C0303; 
+	color: #6C0303;
 }
 /*============================================================
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#FFF; 
-	background-color:#AC0505; 
+	color:#FFF;
+	background-color:#AC0505;
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#FFF; 
-	background-color:#333; 
+	color:#FFF;
+	background-color:#333;
 }
 
 /*============================================================
@@ -244,7 +244,7 @@ div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
 	color:#AC0505;
 }
 
-div#rhcolumn ul { 
+div#rhcolumn ul {
 	list-style-type: square;
 	list-style-image:  url("/media/css/chp/bullet.gif");
 }
@@ -258,7 +258,7 @@ div#footer{
 /*============================================================
 		General link formatting
 ============================================================*/
-	
+
 a:link{
 	color:#6C0303;
 }
