@@ -7,49 +7,50 @@
 ============================================================*/
 /*header font colour,background colour and background image*/
 div#header{
-	color:#111;
-	background-color:#FFF;
-	background-image: url("/media/global/templateimages/watermark.gif");
+	color:#FFF;
+	background-color:#000;
+	background-image: url("/media/css/for-business/cpd/cpd-spark-banner.jpg");
 }
 
 	/*--header h1 area title colour--*/
 	div#header div#location h1{
-		color:#000;
+		color:#FFF;
 	}
 
 	/*--search label colour--*/
 	div#header form label{
-		color:#111;
+		color:#FFF;
 	}
-
+	
 	/*--search box border colour--*/
 	div#header form input{
-		color:#111;
-		border:1px solid #BCBCBC;
+		color:black;
+		border:1px solid black;
 	}
-
+	
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
-		color:#eee;
-		background-color:#111;
-		border:1px solid #111;
+		color:#013919;
+		background-color:#EEF4F8;
+		border:1px solid black;
 	}
-
+	
+		
 
 /*============================================================
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{
+div#extra-links{	
 	color:#000;
-	background-color:#7BCCC5;
+	background-color:#F0B600;
 }
-
+	
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
-		background-color:#7BCCC5;
+		background-color:#F0B600;
 	}
-
+	
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -63,31 +64,31 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#000;
 		}
-
+		
 
 /*============================================================
 		BREADCRUMB
 ============================================================*/
 /*--breadcrumb text colour, background colour--*/
 div#breadcrumb{
-	color:#000;
-	background-color:#D5D5D5;
+	color:#FFF;
+	background-color:#A40044;
 }
 
 	/*--link colours for breadcrumb--*/
 	/*link*/
 	div#breadcrumb a:link{
-		color:#000;
+		color:#FFF;
 	}
 		/*visited*/
 		div#breadcrumb a:visited{
-			color:#000;
+			color:#FFF;
 		}
 		/*hover*/
 		div#breadcrumb a:hover{
-			color:#000;
+			color:#FFF;
 		}
-
+		
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
@@ -95,30 +96,33 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/crd/arrow_nav.gif");
+	background-image:url("/media/css/for-business/cpd/arrow_nav.gif"); 
 }
 
+
+
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
-	background-image: url("/media/css/crd/arrow_nav_down.gif")
+	background-image: url("/media/css/for-business/cpd/arrow_nav_down.gif")
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#eee;
-	background-color:#111;
+	color:#FFF;  
+	background-color:#5F1A44; 
 	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
 }
 
+
 #nav .children {
-	color:#eee;
-	background-color:#373636;
-	background-image:url("/media/css/crd/arrow_nav.gif");
+	color:#FFF; 
+	background-color:#872661; 
+	background-image:url("/media/global/templateimages/arrow_white.gif");
 }
 
 /* all levels hover*/
 #nav li a:hover {
-	color:#000 !important;
-	background-color:#7BCCC5 !important;
-	background-image: url("/media/global/templateimages/arrow_white.gif");
+	color:#FFF !important;
+	background-color:#1A255F !important;
+	background-image: url("/media/global/templateimages/arrow_white.gif");	
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -133,39 +137,17 @@ div#breadcrumb{
 
 
 .boxout, .leftBox, .rightBox {
-	background-color:#EEEEEE;
-	border-color:#ECECEC;
+	background-color:#EFE0E7;
+	border-color:#EFC2D6;
 }
 
 .boxoutAlt {
-	background-color:#7BCCC5;
-	border-color:#7BCCC5;
+	background-color:#EFE4C2;
+	border-color:#EFD177;
+	
 }
 
 
-div#mdcolumn .boxoutAlt,
-div#mdcolumn .boxoutAlt p,
-div#mdcolumn .boxoutAlt h2,
-div#mdcolumn .boxoutAlt h3,
-div#mdcolumn .boxoutAlt h4,
-div#mdcolumn .boxoutAlt h5,
-div#mdcolumn .boxoutAlt a:link,
-div#mdcolumn .boxoutAlt a:visited,
-div#mdcolumn .boxoutAlt a:hover ,
-div#mdcolumn .boxoutAlt li ,
-div#rhcolumn .boxoutAlt,
-div#rhcolumn .boxoutAlt p,
-div#rhcolumn .boxoutAlt h2,
-div#rhcolumn .boxoutAlt h3,
-div#rhcolumn .boxoutAlt h4,
-div#rhcolumn .boxoutAlt h5,
-div#rhcolumn .boxoutAlt a:link,
-div#rhcolumn .boxoutAlt a:visited,
-div#rhcolumn .boxoutAlt a:hover,
-div#rhcolumn .boxoutAlt li
-{
-	color:#000;
-}
 
 
 
@@ -175,70 +157,58 @@ div#rhcolumn .boxoutAlt li
 
 /*--H1 to H6 text colour--*/
 div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn h5, div#mdcolumn h6{
-	color:#111;
+	color:#5F1A44;
 }
 
-div#mdcolumn h2 {border-bottom:3px solid #D5D5D5;
+div#mdcolumn h2 {border-bottom:3px solid #5F1A44; 
 
-}
-
-/* override h2 colour for links  in columns*/
-div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
-div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
-div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
-	color:#000;
 }
 
 
-div#mdcolumn ul li {
-	background:transparent url("/media/css/crd/bullet.gif") no-repeat  0px 4px;
+div#mdcolumn li {
+	background:transparent url("/media/css/for-business/cpd/bullet.gif") no-repeat  0px 4px; 
 }
-
 
 /*--HR colour,background colour (BOTH VALUES MUST BE SAME COLOUR)--*/
 div#mdcolumn hr{
-	color:#D5D5D5;
-	background-color:#D5D5D5;
+	color:#FFFFFF;
+	background-color:#FFFFFF;
 }
 
 
 	/*--table header border colour, background colour--*/
 	table tr th{
-		background-color:#555;
-		color:#FFFFFF;
+		background-color:#872661;
+		color:#FFFFFF; 
 
 	}
+	
 
-	/*--table subheader--*/
-	table tbody tr th {
-		background-color:#DDD;
-		color:#111;
-	}
-
+div#mdcolumn input, div#mdcolumn textarea, div#rhcolumn input, div#rhcolumn textarea  {
+	border:1px solid #AAA; 
+}
 
 div#mdcolumn input.submit, div#rhcolumn input.submit {
-border:1px solid #212121;
-background-color:#212121;
-color:#fftf;
+	border:1px solid #5F1A44; 
+	background-color:#EFE0E7; 
+	color:#5F1A44; 
 }
 
 
-/*Tabbed content*/
-
 div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #111;
+	color: #A40044; 
 }
 
 /*============================================================
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#000;
-	background-color:#7BCCC5;
+	color:#FFF; 
+	background-color:#5F1A44; 
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#000;
-	background-color:#7BCCC5;
+	color:#FFF; 
+	background-color:#777; 
 }
 
 /*============================================================
@@ -247,46 +217,32 @@ div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
 /*--H1 to H4 text colour--*/
 /*H1 colour*/
 div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
-	color:#111;
+	color:#5F1A44;
 }
 
-div#rhcolumn ul {
+div#rhcolumn ul { 
 	list-style-type: square;
-	list-style-image:  url("/media/css/crd/bullet.gif");
+	list-style-image:  url("/media/css/for-business/cpd/bullet.gif");
 }
+
+
 /*============================================================
 		FOOTER
 ============================================================*/
 div#footer{
-	border-top:1px solid #E6E5CF;
+	border-top:1px solid #EFE0E7;
 }
 
 /*============================================================
 		General link formatting
 ============================================================*/
-
+	
 a:link{
-	color:#000;
+	color:#5F1A44;
 }
 a:visited{
-		color:#505050;
+		color:#5F1A44;
 	}
 a:hover{
-		color:#000;
-	}
-
-	/*============================================================
-			CALL TO ACTION LINKS
-	============================================================*/
-
-	.cta a, .cta a:link, .cta a:visited, a.cta , a.cta:link, a.cta:visited ,
-	#mdcolumn .cta a[href^="http://"],
-	#mdcolumn .cta a[href^="https://"],
-	#mdcolumn a.cta[href^="http://"],
-	#mdcolumn a.cta[href^="https://"],
-	#rhcolumn .cta a[href^="http://"],
-	#rhcolumn .cta a[href^="https://"],
-	#rhcolumn a.cta[href^="http://"],
-	#rhcolumn a.cta[href^="https://"]{
-		background: #7BCCC5;
+		color:#5F1A44;
 	}
