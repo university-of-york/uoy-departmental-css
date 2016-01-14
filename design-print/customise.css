@@ -21,35 +21,35 @@ div#header{
 	div#header form label{
 		color:#5a2267;
 	}
-	
+
 	/*--search box border colour--*/
 	div#header form input{
 		color:#000000;
 		border:1px solid #bfc4c8;
 	}
-	
+
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
 		color:#fff;
 		background-color:#5a2267;
 		border:1px solid #5a2267;
 	}
-	
+
 
 /*============================================================
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{	
+div#extra-links{
 	color:#FFF;
 	background-color:#788890;
 }
-	
+
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
 		background-color:#788890;
 	}
-	
+
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -63,7 +63,7 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#FFF;
 		}
-		
+
 
 /*============================================================
 		BREADCRUMB
@@ -87,7 +87,7 @@ div#breadcrumb{
 		div#breadcrumb a:hover{
 			color:#000;
 		}
-		
+
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
@@ -95,7 +95,7 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/design-print/arrow_nav.png"); 
+	background-image:url("/media/css/design-print/arrow_nav.png");
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
@@ -103,14 +103,14 @@ div#breadcrumb{
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#000;  
-	background-color:#f89821; 
+	color:#000;
+	background-color:#f89821;
 	background-image:url("/media/global/templateimages/arrow_nav_down_white.gif");
 }
 
 #nav .children {
-	color:#5A2267; 
-	background-color:#f0e6dc; 
+	color:#5A2267;
+	background-color:#f0e6dc;
 	background-image:url("/media/css/design-print/arrow_nav.png");
 }
 
@@ -118,7 +118,7 @@ div#breadcrumb{
 #nav li a:hover {
 	color:#fff !important;
 	background-color:#5a2267 !important;
-	background-image: url("/media/global/templateimages/arrow_white.gif");	
+	background-image: url("/media/global/templateimages/arrow_white.gif");
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -132,38 +132,38 @@ div#breadcrumb{
 
 .boxout {
 	background-color:#f0e6dc;
-	border-color:#E7E6C7;	
+	border-color:#E7E6C7;
 }
 
 .boxoutAlt {
 	background-color:#d7d7d7;
 	border-color:#d7d7d7;
-	
+
 }
 
-/* 
-div#mdcolumn .boxoutAlt, 
-div#mdcolumn .boxoutAlt p, 
-div#mdcolumn .boxoutAlt h2, 
-div#mdcolumn .boxoutAlt h3, 
-div#mdcolumn .boxoutAlt h4, 
-div#mdcolumn .boxoutAlt h5, 
+/*
+div#mdcolumn .boxoutAlt,
+div#mdcolumn .boxoutAlt p,
+div#mdcolumn .boxoutAlt h2,
+div#mdcolumn .boxoutAlt h3,
+div#mdcolumn .boxoutAlt h4,
+div#mdcolumn .boxoutAlt h5,
 div#mdcolumn .boxoutAlt a:link,
 div#mdcolumn .boxoutAlt a:visited,
 div#mdcolumn .boxoutAlt a:hover ,
 div#mdcolumn .boxoutAlt li ,
-div#rhcolumn .boxoutAlt, 
-div#rhcolumn .boxoutAlt p, 
-div#rhcolumn .boxoutAlt h2, 
-div#rhcolumn .boxoutAlt h3, 
-div#rhcolumn .boxoutAlt h4, 
-div#rhcolumn .boxoutAlt h5, 
+div#rhcolumn .boxoutAlt,
+div#rhcolumn .boxoutAlt p,
+div#rhcolumn .boxoutAlt h2,
+div#rhcolumn .boxoutAlt h3,
+div#rhcolumn .boxoutAlt h4,
+div#rhcolumn .boxoutAlt h5,
 div#rhcolumn .boxoutAlt a:link,
 div#rhcolumn .boxoutAlt a:visited,
 div#rhcolumn .boxoutAlt a:hover,
 div#rhcolumn .boxoutAlt li
 {
-	color:#FFF; 
+	color:#FFF;
 }
 
 
@@ -173,7 +173,7 @@ div#rhcolumn .boxoutAlt ul{
 }
 
 div#mdcolumn .boxoutAlt li {
-	background:transparent url("/media/global/templateimages/bullet_white.gif") no-repeat scroll 0 4px; 
+	background:transparent url("/media/global/templateimages/bullet_white.gif") no-repeat scroll 0 4px;
 } */
 
 
@@ -189,7 +189,7 @@ div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn
 	color:#5a2267;
 }
 
-div#mdcolumn h2 {border-bottom:3px solid #ddd; 
+div#mdcolumn h2 {border-bottom:3px solid #ddd;
 
 }
 
@@ -199,10 +199,10 @@ div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
 div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
 	color:white;
 }
-			
+
 
 div#mdcolumn ul li {
-	background:transparent url("/media/css/design-print/bullet.png") no-repeat  0px 4px; 
+	background:transparent url("/media/css/design-print/bullet.png") no-repeat  0px 4px;
 }
 
 
@@ -216,43 +216,43 @@ div#mdcolumn hr{
 	/*--table header border colour, background colour--*/
 	table tr th{
 		background-color:#5a2267;
-		color:#FFFFFF; 
-	
+		color:#FFFFFF;
+
 	}
-	
+
 	/*--table subheader--*/
 	table tbody tr th {
 		background-color:#F0EFDC;
-		color:#1d1d1d; 
+		color:#1d1d1d;
 	}
-	
+
 table tbody tr th a:link, table tbody tr th a:visited, table tbody tr th a:hover {
 color: #5A2267;
 }
 
 div#mdcolumn input.submit, div#rhcolumn input.submit {
-border:1px solid #5A2267; 
-background-color:#5A2267; 
-color:#fff; 
+border:1px solid #5A2267;
+background-color:#5A2267;
+color:#fff;
 }
 
 
 /*Tabbed content*/
 
 div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #c40038; 
+	color: #c40038;
 }
 
 /*============================================================
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#FFF; 
-	background-color:#5a2267; 
+	color:#FFF;
+	background-color:#5a2267;
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#FFF; 
-	background-color:#B30033; 
+	color:#FFF;
+	background-color:#B30033;
 }
 
 /*============================================================
@@ -264,7 +264,7 @@ div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
 	color:#5a2267;
 }
 
-div#rhcolumn ul { 
+div#rhcolumn ul {
 	list-style-type: square;
 	list-style-image:  url("/media/css/design-print/bullet.png");
 }
@@ -278,7 +278,7 @@ div#footer{
 /*============================================================
 		General link formatting
 ============================================================*/
-	
+
 a:link{
 	color:#5A2267;
 }
@@ -288,32 +288,48 @@ a:visited{
 a:hover{
 		color:#5A2267;
 	}
-	
+
 /*============================================================
 		Cafes and bars specific styles
-============================================================*/	
+============================================================*/
 
 .opening-hours h3, .menu h3{
-	margin-top:0; 
+	margin-top:0;
 }
 
 .opening-hours, .menu {
-	margin-bottom:20px; 
+	margin-bottom:20px;
 }
 
 div#mdcolumn div.col-half.opening-hours {
-	width:202px; 
+	width:202px;
 }
 
 div#mdcolumn div.col-half.menu {
-	width:282px; 
+	width:282px;
 }
 
 div#mdcolumn table.horizontal-borders tr td {
-	border-bottom:1px solid #ccc; 
+	border-bottom:1px solid #ccc;
 }
 
 
 div#mdcolumn table.horizontal-borders tr th {
-	border-bottom:1px solid #fff; 
+	border-bottom:1px solid #fff;
+}
+
+/*============================================================
+		CALL TO ACTION LINKS
+============================================================*/
+
+.cta a, .cta a:link, .cta a:visited, a.cta , a.cta:link, a.cta:visited ,
+#mdcolumn .cta a[href^="http://"],
+#mdcolumn .cta a[href^="https://"],
+#mdcolumn a.cta[href^="http://"],
+#mdcolumn a.cta[href^="https://"],
+#rhcolumn .cta a[href^="http://"],
+#rhcolumn .cta a[href^="https://"],
+#rhcolumn a.cta[href^="http://"],
+#rhcolumn a.cta[href^="https://"]{
+	background: #5a2267;
 }
