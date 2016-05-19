@@ -21,35 +21,35 @@ div#header{
 	div#header form label{
 		color:#FFF;
 	}
-	
+
 	/*--search box border colour--*/
 	div#header form input{
 		color:#000000;
 		border:1px solid #BBBBBB;
 	}
-	
+
 	/*--search button border colour, text colour, background colour--*/
 	div#header form input.submit{
 		color:#000000;
 		background-color:#F7AB00;
 		border:1px solid #F3F6DE;
 	}
-	
+
 
 /*============================================================
 		EXTRA LINKS
 ============================================================*/
 /*--extra-links text colour,background colour--*/
-div#extra-links{	
+div#extra-links{
 	color:#000;
 	background-color:#D3E172;
 }
-	
+
 	/*--highlight surrounding links background colour--*/
 	div#extra-links p span{
 		background-color:#C1D141;
 	}
-	
+
 		/*--link colours for extra-links--*/
 		/*link*/
 		div#extra-links p span a:link{
@@ -63,7 +63,7 @@ div#extra-links{
 		div#extra-links p span a:hover{
 			color:#000;
 		}
-		
+
 
 /*============================================================
 		BREADCRUMB
@@ -87,7 +87,7 @@ div#breadcrumb{
 		div#breadcrumb a:hover{
 			color:#000;
 		}
-		
+
 /*============================================================
 		LEFT COLUMN BLOCKED NAVIGATION
 ============================================================*/
@@ -95,7 +95,7 @@ div#breadcrumb{
 #nav li a , #nav li li a, #nav li li li a , #nav li li li li a {
 	color: #000;
 	border-bottom: 1px solid white;
-	background-image:url("/media/css/biology/arrow_nav.gif"); 
+	background-image:url("/media/css/biology/arrow_nav.gif");
 }
 
 #nav li span.currentbranch0 a, #nav li span.currentbranch1 a, #nav li span.currentbranch2 a, #nav li span.currentbranch3 a, #nav li span.currentbranch4 a {
@@ -103,14 +103,14 @@ div#breadcrumb{
 }
 
 #nav li span.parent, #nav li span.parent a.parent {
-	color:#000;  
-	background-color:#C1D141; 
+	color:#000;
+	background-color:#C1D141;
 	background-image:url("/media/css/biology/arrow_nav_down.gif");
 }
 
 #nav .children {
-	color:#000; 
-	background-color:#F3F6DF; 
+	color:#000;
+	background-color:#F3F6DF;
 	background-image:url("/media/css/biology/arrow_nav.gif");
 }
 
@@ -118,7 +118,7 @@ div#breadcrumb{
 #nav li a:hover {
 	color:#000 !important;
 	background-color:#F7AB00 !important;
-	background-image: url("/media/css/biology/arrow_nav.gif");	
+	background-image: url("/media/css/biology/arrow_nav.gif");
 }
 
 #nav li span.currentbranch0 a:hover, #nav li span.currentbranch1 a:hover, #nav li span.currentbranch2 a:hover, #nav li span.currentbranch3 a:hover, #nav li span.currentbranch4 a:hover   {
@@ -139,7 +139,7 @@ div#breadcrumb{
 
 .boxoutAlt {
 	background-color:#D3E172;
-	border-color:#D3E172;	
+	border-color:#D3E172;
 }
 
 
@@ -153,7 +153,7 @@ div#mdcolumn h1, div#mdcolumn h2, div#mdcolumn h3, div#mdcolumn h4, div#mdcolumn
 	color:#2C100E;
 }
 
-div#mdcolumn h2 {border-bottom:3px solid #e3eab4; 
+div#mdcolumn h2 {border-bottom:3px solid #e3eab4;
 
 }
 
@@ -162,11 +162,11 @@ div#mdcolumn .col-half h2 a:link, div#mdcolumn .col-third h2 a:link,
 div#mdcolumn .col-half h2 a:visited, div#mdcolumn .col-third h2 a:visited,
 div#mdcolumn .col-half h2 a:hover, div#mdcolumn .col-third h2 a:hover{
 	color:black;
-} 
-			
+}
+
 
 div#mdcolumn li {
-	background:transparent url("/media/css/biology/bullet.gif") no-repeat  0px 4px; 
+	background:transparent url("/media/css/biology/bullet.gif") no-repeat  0px 4px;
 }
 
 
@@ -180,31 +180,31 @@ div#mdcolumn hr{
 	/*--table header border colour, background colour--*/
 	table tr th{
 		background-color:#B5C630;
-		color:#000; 
-	
+		color:#000;
+
 	}
-	
+
 	/*--table subheader--*/
 	table tbody tr th {
 		background-color:#E3EAB4;
-		color:#1D1D1D; 
+		color:#1D1D1D;
 	}
 
 div#mdcolumn input, div#mdcolumn textarea, div#rhcolumn input, div#rhcolumn textarea  {
-border:1px solid #AAA; 
+border:1px solid #AAA;
 }
 
 div#mdcolumn input.submit, div#rhcolumn input.submit {
-border:1px solid #AAA; 
-background-color:#B5C630; 
-color:#111; 
+border:1px solid #AAA;
+background-color:#B5C630;
+color:#111;
 }
 
 
 /*Tabbed content*/
 
 div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.selected:hover {
-	color: #3B5805; 
+	color: #3B5805;
 }
 
 
@@ -217,13 +217,13 @@ div#mdcolumn #course-apply-now {
 	background-image: -ms-linear-gradient(top, #ffbf30, #F7AB00);
 	background-image: -o-linear-gradient(top, #ffbf30, #F7AB00);
 	background-image: linear-gradient(top, #ffbf30, #F7AB00);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffbf30', EndColorStr='#F7AB00'); 
-	border-color: #F7AB00; 
-	color:#111; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffbf30', EndColorStr='#F7AB00');
+	border-color: #F7AB00;
+	color:#111;
 }
 
 div#mdcolumn #course-apply-now:hover {
-	background-color:#F7AB00; 
+	background-color:#F7AB00;
 }
 
 
@@ -231,12 +231,12 @@ div#mdcolumn #course-apply-now:hover {
 		HOMEPAGE FORMATTING
 ============================================================*/
 div#mdcolumn .col-half h2, div#mdcolumn .col-third  h2{
-	color:#000; 
-	background-color:#B5C630; 
+	color:#000;
+	background-color:#B5C630;
 }
 div#mdcolumn .col-half .boxoutAlt h2, div#mdcolumn .col-third  .boxoutAlt h2{
-	color:#000; 
-	background-color:#C1D141; 
+	color:#000;
+	background-color:#C1D141;
 }
 
 /*============================================================
@@ -248,7 +248,7 @@ div#rhcolumn h1,div#rhcolumn h2,div#rhcolumn h3,div#rhcolumn h4{
 	color:#2C100E;
 }
 
-div#rhcolumn ul { 
+div#rhcolumn ul {
 	list-style-type: square;
 	list-style-image:  url("/media/css/biology/bullet.gif");
 }
@@ -262,9 +262,9 @@ div#footer{
 /*============================================================
 		General link formatting
 ============================================================*/
-	
+
 a:link{
-	color:#3B5805; 
+	color:#3B5805;
 }
 a:visited{
 		color:#753530;
@@ -272,3 +272,20 @@ a:visited{
 a:hover{
 		color:#3B5805;
 	}
+
+/*============================================================
+		CALL TO ACTION LINKS
+============================================================*/
+
+.cta a, .cta a:link, .cta a:visited, a.cta , a.cta:link, a.cta:visited ,
+#mdcolumn .cta a[href^="http://"],
+#mdcolumn .cta a[href^="https://"],
+#mdcolumn a.cta[href^="http://"],
+#mdcolumn a.cta[href^="https://"],
+#rhcolumn .cta a[href^="http://"],
+#rhcolumn .cta a[href^="https://"],
+#rhcolumn a.cta[href^="http://"],
+#rhcolumn a.cta[href^="https://"]{
+	background: #F7AB00;
+	color: #000;
+}
