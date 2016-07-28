@@ -526,7 +526,7 @@ div#mdcolumn ul.tabNavigation li a.selected, div#mdcolumn ul.tabNavigation li a.
 
 /*FAQ*/
 
-div#mdcolumn h3.q, div#mdcolumn h3.q a {
+div#mdcolumn h3.q, div#mdcolumn h3.q a, div#mdcolumn .col-half h3.q {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
 	font-size:100%;
 
